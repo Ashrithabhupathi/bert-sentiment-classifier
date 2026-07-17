@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+
+# Model checkpoints and cached datasets can be large — regenerate via src/main.py
+*.pt
+*.bin
+.cache/
